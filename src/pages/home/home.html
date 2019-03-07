@@ -1,14 +1,23 @@
-<ion-header>
+<ion-header class="bgtranslucent">
+
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>WASTEK</ion-title>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content>
+  <img src="../../assets/imgs/login_img.jpg" alt="">
+
+  <ion-footer>
+    <button ion-button full color="dark" (click)="openLogin()">
+      LOGIN
+    </button>
+
+    <button ion-button full color="viol" (click)="openRegister()">
+      REGISTER
+    </button>
+  </ion-footer>
+
 </ion-content>

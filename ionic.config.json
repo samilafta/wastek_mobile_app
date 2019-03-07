@@ -1,5 +1,7 @@
 {
   "name": "waste-mgt",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
